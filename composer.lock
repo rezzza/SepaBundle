@@ -1,0 +1,163 @@
+{
+    "hash": "593a9092de19812308346ec7369ac458",
+    "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "2.3.x-dev",
+            "source-reference": "2ec4bc6db13db6a0976a16b71058083c55cbcdbd",
+            "commit-date": "1343847076"
+        },
+        {
+            "package": "jms/metadata",
+            "version": "dev-master",
+            "alias-pretty-version": "1.2.x-dev",
+            "alias-version": "1.2.9999999.9999999-dev"
+        },
+        {
+            "package": "jms/metadata",
+            "version": "dev-master",
+            "source-reference": "dbfbb15b3ffdf96c5ff14e5cd4451d78a7083a36",
+            "commit-date": "1339680164"
+        },
+        {
+            "package": "jms/serializer-bundle",
+            "version": "dev-master",
+            "alias-pretty-version": "0.9.x-dev",
+            "alias-version": "0.9.9999999.9999999-dev"
+        },
+        {
+            "package": "jms/serializer-bundle",
+            "version": "dev-master",
+            "source-reference": "1f308a587742246e87e580290f3bae23073d1d70",
+            "commit-date": "1343641450"
+        },
+        {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "source-reference": "f68ad44f3ee1603ce96387bacba0ecba488c2a33",
+            "commit-date": "1344599303"
+        },
+        {
+            "package": "symfony/dependency-injection",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/dependency-injection",
+            "version": "dev-master",
+            "source-reference": "98fa735a7ef5dc07c43bfe6faa4367a983b6ba6f",
+            "commit-date": "1344599303"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-BETA4",
+            "commit-date": "1342739894"
+        },
+        {
+            "package": "symfony/filesystem",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/filesystem",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC1",
+            "commit-date": "1343491637"
+        },
+        {
+            "package": "symfony/framework-bundle",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/framework-bundle",
+            "version": "dev-master",
+            "source-reference": "45db4bfca544054ae059e1ddd2b6f818fee0df86",
+            "commit-date": "1344264516"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "source-reference": "9a509ac3bb52076f5a765a85e9552042b40ce287",
+            "commit-date": "1344594770"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "dev-master",
+            "source-reference": "0d0ee371ab0425f3399dba9e25d7ad98ca5c0d62",
+            "commit-date": "1344074675"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC1",
+            "commit-date": "1343744077"
+        },
+        {
+            "package": "symfony/templating",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/templating",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC1",
+            "commit-date": "1343982509"
+        },
+        {
+            "package": "symfony/translation",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/translation",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC1",
+            "commit-date": "1343512949"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
