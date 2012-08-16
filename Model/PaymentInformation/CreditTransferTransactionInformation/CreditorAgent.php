@@ -17,7 +17,7 @@ class CreditorAgent
      * MANDATORY
      *
      * @Type("Rezzza\SepaBundle\Model\PaymentInformation\Debtors\FinancialInstitutionIdentification")
-     * @SerializedName("PmtId")
+     * @SerializedName("FinInstnId")
      */
     public $financialInstitutionIdentification;
 

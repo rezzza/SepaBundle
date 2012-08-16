@@ -7,5 +7,8 @@ Usage:
 
 Todo:
 
+- We have to force the output of datetime from jms serializer
+- Xml must have standalone = false
+- look at if usage of cdata works
 - Create a factory
 - Tests
