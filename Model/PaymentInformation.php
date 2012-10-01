@@ -5,6 +5,7 @@ namespace Rezzza\SepaBundle\Model;
 use JMS\SerializerBundle\Annotation\XmlList;
 use JMS\SerializerBundle\Annotation\Type;
 use JMS\SerializerBundle\Annotation\SerializedName;
+use JMS\SerializerBundle\Annotation\PreSerialize;
 
 /**
  * PaymentInformation
@@ -40,7 +41,7 @@ class PaymentInformation
     /**
      * MANDATORY
      *
-     * @Type("datetime")
+     * @Type("string")
      * @SerializedName("ReqdExctnDt")
      */
     public $requestedExecutionDate;
@@ -92,4 +93,15 @@ class PaymentInformation
      * @Type("Rezzza\SepaBundle\Model\PaymentInformation\CreditTransferTransactionInformation")
      */
     public $creditTransferTransactionInformations;
+
+    /**
+     * @PreSerialize()
+     */
+    public function fixDateTime()
+    {
+        if ($this->requestedExecutionDate instanceof \DateTime) {
+            $this->requestedExecutionDate = $this->requestedExecutionDate->format('Y-m-d');
+        }
+    }
+
 }

@@ -4,6 +4,7 @@ namespace Rezzza\SepaBundle\Model;
 
 use JMS\SerializerBundle\Annotation\Type;
 use JMS\SerializerBundle\Annotation\SerializedName;
+use JMS\SerializerBundle\Annotation\PreSerialize;
 
 /**
  * GroupHeader
@@ -25,7 +26,7 @@ class GroupHeader
      * MANDATORY
      * IGNORED
      *
-     * @Type("datetime")
+     * @Type("string")
      * @SerializedName("CreDtTm")
      */
     public $creationDateTime;
@@ -62,4 +63,14 @@ class GroupHeader
      * @SerializedName("InitgPty")
      */
     public $initiatingParty;
+
+    /**
+     * @PreSerialize()
+     */
+    public function fixDateTime()
+    {
+        if ($this->creationDateTime instanceof \DateTime) {
+            $this->creationDateTime = $this->creationDateTime->format('Y-m-d\TH:i:s');
+        }
+    }
 }
