@@ -2,10 +2,10 @@
 
 namespace Rezzza\SepaBundle\Model;
 
-use JMS\SerializerBundle\Annotation\XmlList;
-use JMS\SerializerBundle\Annotation\Type;
-use JMS\SerializerBundle\Annotation\SerializedName;
-use JMS\SerializerBundle\Annotation\PreSerialize;
+use JMS\Serializer\Annotation\XmlList;
+use JMS\Serializer\Annotation\Type;
+use JMS\Serializer\Annotation\SerializedName;
+use JMS\Serializer\Annotation\PreSerialize;
 
 /**
  * PaymentInformation

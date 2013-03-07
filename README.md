@@ -4,7 +4,6 @@ Usage:
 
 @todo
 
-
 Todo:
 
 - We have to force the output of datetime from jms serializer

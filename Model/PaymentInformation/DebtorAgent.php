@@ -3,8 +3,8 @@
 namespace Rezzza\SepaBundle\Model\PaymentInformation;
 
 use Rezzza\SepaBundle\Model\PaymentInformation\Debtors\FinancialInstitutionIdentification;
-use JMS\SerializerBundle\Annotation\Type;
-use JMS\SerializerBundle\Annotation\SerializedName;
+use JMS\Serializer\Annotation\Type;
+use JMS\Serializer\Annotation\SerializedName;
 
 /**
  * DebtorAgent

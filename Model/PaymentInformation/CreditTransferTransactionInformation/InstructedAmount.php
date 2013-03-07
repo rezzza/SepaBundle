@@ -3,10 +3,10 @@
 namespace Rezzza\SepaBundle\Model\PaymentInformation\CreditTransferTransactionInformation;
 
 
-use JMS\SerializerBundle\Annotation\Type;
-use JMS\SerializerBundle\Annotation\SerializedName;
-use JMS\SerializerBundle\Annotation\XmlAttribute;
-use JMS\SerializerBundle\Annotation\XmlValue;
+use JMS\Serializer\Annotation\Type;
+use JMS\Serializer\Annotation\SerializedName;
+use JMS\Serializer\Annotation\XmlAttribute;
+use JMS\Serializer\Annotation\XmlValue;
 
 /**
  * InstructedAmount

@@ -2,8 +2,8 @@
 
 namespace Rezzza\SepaBundle\Model\PaymentInformation\CreditTransferTransactionInformation;
 
-use JMS\SerializerBundle\Annotation\XmlList;
-use JMS\SerializerBundle\Annotation\Type;
+use JMS\Serializer\Annotation\XmlList;
+use JMS\Serializer\Annotation\Type;
 
 /**
  * RemittanceInformation

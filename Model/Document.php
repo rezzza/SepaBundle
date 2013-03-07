@@ -2,10 +2,10 @@
 
 namespace Rezzza\SepaBundle\Model;
 
-use JMS\SerializerBundle\Annotation\XmlRoot;
-use JMS\SerializerBundle\Annotation\XmlAttribute;
-use JMS\SerializerBundle\Annotation\Type;
-use JMS\SerializerBundle\Annotation\SerializedName;
+use JMS\Serializer\Annotation\XmlRoot;
+use JMS\Serializer\Annotation\XmlAttribute;
+use JMS\Serializer\Annotation\Type;
+use JMS\Serializer\Annotation\SerializedName;
 
 /**
  * Document
@@ -26,7 +26,7 @@ class Document
     private $xmlns = "urn:iso:std:iso:20022:tech:xsd:pain.001.001.02";
 
     /**
-     * @Type("Pain")
+     * @Type("Rezzza\SepaBundle\Model\Pain")
      * @SerializedName("pain.001.001.02");
      */
     public $pain;

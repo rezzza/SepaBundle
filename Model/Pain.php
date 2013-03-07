@@ -2,9 +2,9 @@
 
 namespace Rezzza\SepaBundle\Model;
 
-use JMS\SerializerBundle\Annotation\XmlList;
-use JMS\SerializerBundle\Annotation\Type;
-use JMS\SerializerBundle\Annotation\SerializedName;
+use JMS\Serializer\Annotation\XmlList;
+use JMS\Serializer\Annotation\Type;
+use JMS\Serializer\Annotation\SerializedName;
 
 /**
  * Pain
@@ -16,7 +16,7 @@ class Pain
     /**
      * MANDATORY
      *
-     * @Type("GroupHeader")
+     * @Type("Rezzza\SepaBundle\Model\GroupHeader")
      * @SerializedName("GrpHdr")
      */
     public $groupHeader;
@@ -25,7 +25,7 @@ class Pain
      * MANDATORY
      *
      * @XmlList(inline=true, entry= "PmtInf")
-     * @Type("ArrayCollection<PaymentInformation>")
+     * @Type("array<Rezzza\SepaBundle\Model\PaymentInformation>")
      */
     public $paymentInformations;
 }
