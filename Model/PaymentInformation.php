@@ -90,7 +90,7 @@ class PaymentInformation
      * MANDATORY
      *
      * @XmlList(inline=true, entry= "CdtTrfTxInf")
-     * @Type("Rezzza\SepaBundle\Model\PaymentInformation\CreditTransferTransactionInformation")
+     * @Type("array<Rezzza\SepaBundle\Model\PaymentInformation\CreditTransferTransactionInformation>")
      */
     public $creditTransferTransactionInformations;
 
